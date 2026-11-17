@@ -1,0 +1,2 @@
+# Sprint Board — Azure workshop
+Node.js 22, Git. Run `npm install`, `npm run dev`, then `npm run build`. The local Vite server does not run the API. Deploy using Azure Static Web Apps (Free), GitHub, main branch, Custom preset: app location `/`, API location `api`, output `dist`. Azure creates the workflow. Check GitHub Actions, open the generated site and click Cloud API; also open `/api/status`. Change RELEASE 1.0 in src/main.jsx to RELEASE 1.1, commit and push. Tasks are stored in localStorage, not in a shared database. Never store secrets in the repository.
